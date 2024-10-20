@@ -1,0 +1,11 @@
+# Experiment 03: Various Counters
+
+## Objective:
+To develop testbenches and implement different types of counters in Verilog HDL, such as:
+1. Ring Counter
+2. Johnson Counter
+3. Up-Down Counter
+
+### 1. **Ring Counter**:
+A ring counter is a type of shift register where the output of the last flip-flop is fed back to the input of the first. It "rotates" the values as it shifts, creating a cyclic pattern. This is useful in applications like time delay and sequential logic.
+
