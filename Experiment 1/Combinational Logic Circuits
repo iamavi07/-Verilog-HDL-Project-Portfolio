@@ -1,0 +1,38 @@
+# Experiment 1 - Combinational Logic Circuits
+
+This experiment covers basic combinational circuits: Full Adder, Full Subtractor, 4-bit Adder, Multiplexer, and Demultiplexer. Each module includes both the Verilog HDL code and an exhaustive testbench. 
+
+### 1. Full Adder
+A Full Adder adds three 1-bit numbers, `A`, `B`, and `Cin`, producing a sum and a carry-out.
+
+**Files:**
+- `FullAdder/FullAdder.v`: Verilog module for the Full Adder
+- `FullAdder/tb_FullAdder.v`: Testbench for the Full Adder
+
+### 2. Full Subtractor
+A Full Subtractor subtracts two binary numbers and a borrow, producing a difference and borrow-out.
+
+**Files:**
+- `FullSubtractor/FullSubtractor.v`: Verilog module for the Full Subtractor
+- `FullSubtractor/tb_FullSubtractor.v`: Testbench for the Full Subtractor
+
+### 3. Four-Bit Adder
+This is a 4-bit ripple-carry adder made by chaining four Full Adders.
+
+**Files:**
+- `FourBitAdder/FourBitAdder.v`: Verilog module for the 4-bit Adder
+- `FourBitAdder/tb_FourBitAdder.v`: Testbench for the 4-bit Adder
+
+### 4. Multiplexer (4-to-1)
+The multiplexer selects one of the four 4-bit inputs based on a 2-bit selector signal.
+
+**Files:**
+- `Multiplexer/MUX.v`: Verilog module for the Multiplexer
+- `Multiplexer/tb_MUX.v`: Testbench for the Multiplexer
+
+### 5. Demultiplexer (1-to-4)
+The demultiplexer directs a single input to one of four output lines based on two select lines.
+
+**Files:**
+- `Demultiplexer/DEMUX_1x4.v`: Verilog module for the Demultiplexer
+- `Demultiplexer/tb_DEMUX_1x4.v`: Testbench for the Demultiplexer
