@@ -1,5 +1,9 @@
 # Experiment 1 - Combinational Logic Circuits
-
+## Modules
+1. **Adder**: A simple full adder that takes three inputs (`A`, `B`, `Cin`) and outputs a sum (`S`) and a carry-out (`Cout`).
+2. **Subtractor**: A full subtractor that takes three inputs (`A`, `B`, `Bin`) and outputs the difference (`Diff`) and a borrow-out (`Bout`).
+3. **Multiplexer**: A 4-to-1 multiplexer with 4-bit inputs and a 2-bit select line.
+4. **Demultiplexer**: A 1-to-4 demultiplexer.
 This experiment covers basic combinational circuits: Full Adder, Full Subtractor, 4-bit Adder, Multiplexer, and Demultiplexer. Each module includes both the Verilog HDL code and an exhaustive testbench. 
 
 ### 1. Full Adder
