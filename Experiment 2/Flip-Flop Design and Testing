@@ -1,0 +1,28 @@
+# Experiment 2 - Flip-Flop Design and Testing
+
+This experiment focuses on developing and testing various types of flip-flops using Verilog HDL. Each flip-flop type includes a Verilog implementation and an accompanying testbench to simulate and validate the design. The flip-flops implemented are:
+
+1. **SR Flip-Flop**: Set-Reset flip-flop.
+2. **JK Flip-Flop**: A versatile flip-flop that can act as an SR, T, or D flip-flop based on inputs.
+3. **D Flip-Flop**: Data or delay flip-flop.
+4. **T Flip-Flop**: Toggle flip-flop.
+
+## Flip-Flops and Files:
+
+1. **SR Flip-Flop**:
+   - `SR_FlipFlop/SRFF.v`: Verilog code for the SR Flip-Flop.
+   - `SR_FlipFlop/tb_SRFF.v`: Testbench for the SR Flip-Flop.
+
+2. **JK Flip-Flop**:
+   - `JK_FlipFlop/JKFF.v`: Verilog code for the JK Flip-Flop.
+   - `JK_FlipFlop/tb_JKFF.v`: Testbench for the JK Flip-Flop.
+
+3. **D Flip-Flop**:
+   - `D_FlipFlop/DFF.v`: Verilog code for the D Flip-Flop.
+   - `D_FlipFlop/tb_DFF.v`: Testbench for the D Flip-Flop.
+
+4. **T Flip-Flop**:
+   - `T_FlipFlop/TFF.v`: Verilog code for the T Flip-Flop.
+   - `T_FlipFlop/tb_TFF.v`: Testbench for the T Flip-Flop.
+
+Each testbench generates waveform dumps for visual verification using `.vcd` files.
